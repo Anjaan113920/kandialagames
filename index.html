@@ -1,83 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Kandiala Games</title>
-<style>
+  <title>Kandiala Games</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
     body {
-        font-family: Arial, sans-serif;
-        background: #f7f7f7;
-        padding: 50px;
-        text-align: center;
-        color: #333;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f0f0f;
+      color: white;
+      text-align: center;
     }
 
-    .container {
-        max-width: 600px;
-        margin: auto;
-        background: white;
-        padding: 40px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    .hero {
+      padding: 80px 20px;
     }
 
-    h1 {
-        margin-bottom: 10px;
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
     }
 
-    p {
-        font-size: 16px;
-        line-height: 1.5;
+    .hero p {
+      color: #aaa;
+      font-size: 18px;
     }
 
-    h2 {
-        margin-top: 30px;
-        color: #444;
+    .games {
+      padding: 40px 20px;
     }
 
-    a.button {
-        display: inline-block;
-        margin: 12px;
-        padding: 10px 20px;
-        background: #0078ff;
-        color: white;
-        border-radius: 6px;
-        text-decoration: none;
-        font-size: 16px;
+    .game-card {
+      background: #1c1c1c;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
     }
 
-    a.button:hover {
-        background: #005fcc;
+    .game-card h2 {
+      margin-bottom: 15px;
     }
 
-</style>
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #007aff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .btn:hover {
+      background-color: #005ecb;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
+    }
+  </style>
 </head>
 
 <body>
 
-<div class="container">
+  <div class="hero">
     <h1>Kandiala Games</h1>
-    <p>Official public hosting for app documentation and support.</p>
+    <p>Indie Mobile Game Studio</p>
+  </div>
 
-    <h2>Tic Tac Toe Glow Grid</h2>
-    <a class="button" href="privacy-policy.html">Privacy Policy</a>
-    <a class="button" href="support.html">Support</a>
+  <div class="games">
 
+    <div class="game-card">
+      <h2>Tic Tac Toe Glow Grid</h2>
+      <a class="btn" href="privacy.html">Privacy Policy</a>
+      <a class="btn" href="support.html">Support</a>
+    </div>
 
-    <h2>Quick Match Arena</h2>
-    <a class="button" href="quick-match-arena-privacy.html">Privacy Policy</a>
-    <a class="button" href="quick-match-arena-support.html">Support</a>
+    <div class="game-card">
+      <h2>Quick Match Arena</h2>
+      <a class="btn" href="quick-match-arena-privacy.html">Privacy Policy</a>
+      <a class="btn" href="quick-match-arena-support.html">Support</a>
+    </div>
 
-    
-    <h2>Last Path</h2>
-    <a class="button" href="privacy-policy.html">privacy Policy</a>
-    <a class="button" href="support.html">support</a>
+    <div class="game-card">
+      <h2>Last Path</h2>
+      <a class="btn" href="privacy-policy.html">Privacy Policy</a>
+      <a class="btn" href="support.html">Support</a>
+    </div>
 
-    <h2>Reflex Drop</h2>
-    <a class="button" href="ReflexDrop_Support.html">privacy Policy</a>
-    <a class="button" href="ReflexDrop_Support.html">support</a>
-    
-</div>
+    <div class="game-card">
+      <h2>Reflex Drop</h2>
+      <a class="btn" href="Reflexdrop_Privacy.html">Privacy Policy</a>
+      <a class="btn" href="ReflexDrop_Support.html">Support</a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Kandiala Games. All rights reserved.
+  </footer>
 
 </body>
 </html>
